@@ -70,8 +70,8 @@ Download JavaFX SDK: Download JavaFX SDK
 They should extract the JavaFX SDK to a directory (e.g., lib/javafx-sdk-17.0.15) and run the following command from the directory where the JAR file is located:
 
 java --module-path lib/javafx-sdk-17.0.15/lib --add-modules javafx.controls,javafx.fxml -jar PiracyControlApp.jar
-
-Troubleshooting
+```
+##Troubleshooting
 
 Common Issues
 
@@ -84,26 +84,11 @@ This error happens if the JavaFX libraries are not correctly referenced. Ensure 
 3. JavaFX version issues
 Ensure you are using Java 17 or a compatible version of JavaFX. Check that the paths to the JavaFX SDK are correct.
 
-License
+##License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-Acknowledgments
+##Acknowledgments
 JavaFX SDK
 
 OpenJDK
 
-
-### Steps Recap:
-1. **Clone the repository** to your local machine.
-2. **Download JavaFX SDK** and extract it to the correct directory.
-3. **Compile the Java files** using `javac` with the correct classpath.
-4. **Package the compiled files into a JAR** using `jar`.
-5. **Run the application** by specifying the module path to JavaFX libraries.
-
-### GitHub Upload
-
-When uploading this to GitHub:
-1. **Create the repository** and push all your project files, including the `src`, `bin`, `lib`, `META-INF`, `PiracyControlApp.jar`, and the `README.md` file.
-2. **Add the necessary dependencies** (JavaFX SDK) under the `lib` folder or specify the external link to JavaFX in the README if you're not including it directly in the repo.
-
-Let me know if you need any further modifications or help!
